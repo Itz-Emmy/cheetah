@@ -666,6 +666,12 @@ ul.check-list li p {
     position: relative;
     border-radius: 30px;
     /* width: 400px; */
+    background: rgba( 255, 255, 255, 0.65 );
+box-shadow: 0 12px 32px 0 rgba( 232, 207, 23, 0.7 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+/* border-radius: 10px; */
+border: 1px solid rgba(232, 207, 23, 0.18);
 }
 
 .rotation-img {
@@ -1701,7 +1707,7 @@ footer.bg-pattern {
     transition: all 400ms ease;
     height: auto;
     max-width: 30%;
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 40%;
 }
 
