@@ -7,7 +7,7 @@ _______________________________________________________*/
 body,
 html {
     color: #fff;
-    background: #FAC949;
+    background: #F8CA46;
 }
 
 a,
@@ -16,19 +16,19 @@ a:focus {
 }
 
 a:hover {
-    color: #FAC949;
+    color: #F8CA46;
     ;
 }
 
 a.active {
-    color: #FAC949;
+    color: #F8CA46;
 }
 
 .btn {
     color: #fff;
-    background: #FAC949;
-    border: 1px solid #FAC949;
-    border-color: #FAC949;
+    background: #F8CA46;
+    border: 1px solid #F8CA46;
+    border-color: #F8CA46;
 }
 
 .btn:hover {
@@ -49,7 +49,7 @@ a.active {
 }
 
 #preloader {
-    background: url(../images/loader.svg) center no-repeat #FAC949;
+    background: url(../images/loader.svg) center no-repeat #F8CA46;
 }
 
 .form-control,
@@ -147,7 +147,7 @@ header.fixed .menu-toggle span:after {
 
 ul.check-list li span {
     background: #fff;
-    color: #FAC949;
+    color: #F8CA46;
 }
 
 /*----- Feature Section -----*/
@@ -199,7 +199,7 @@ ul.check-list li span {
 }
 
 .donut {
-    color: #FAC949;
+    color: #F8CA46;
 }
 
 
@@ -239,7 +239,7 @@ ul.check-list li span {
 
 .feature-box-2 .frontend,
 .feature-box-2 .backend {
-    background: #FAC949;
+    background: #F8CA46;
 }
 
 .feature-des {
@@ -251,11 +251,11 @@ ul.check-list li span {
 .roadmap-part .v-row,
 .roadmap-part .h-border,
 .roadmap-des {
-    border-color: #FAC949;
+    border-color: #F8CA46;
 }
 
 .roadmap-part .small-round {
-    background: #FAC949;
+    background: #F8CA46;
 }
 
 
@@ -301,11 +301,11 @@ ul.check-list li span {
 /*----- Token Sale Page -----*/
 
 .information-token-head {
-    color: #FAC949;
+    color: #F8CA46;
 }
 
 .token-sale-counter {
-    background: #FAC949;
+    background: #F8CA46;
 }
 
 .token-sale-counter .coins-counter-loop li span {
@@ -313,7 +313,7 @@ ul.check-list li span {
 }
 
 .token-sale-counter .coins-counter-loop li .coin-day {
-    color: #FAC949;
+    color: #F8CA46;
 }
 
 .token-sale-counter .coins-progress span {
@@ -321,7 +321,7 @@ ul.check-list li span {
     background: -moz-linear-gradient(left, rgba(182, 27, 27, 1) 0%, rgba(253, 93, 0, 1) 100%);
     background: -webkit-linear-gradient(left, rgba(182, 27, 27, 1) 0%, rgba(253, 93, 0, 1) 100%);
     background: linear-gradient(to right, rgb(182, 27, 27) 0%, rgb(253, 93, 0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAC949', endColorstr='#ddd000', GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8CA46', endColorstr='#ddd000', GradientType=1);
 }
 
 .token-slide-info:before {
@@ -353,11 +353,11 @@ ul.check-list li span {
 }
 
 .footer-icon ul li a:hover {
-    background: #FAC949;
+    background: #F8CA46;
 }
 
 .footer-link ul li a:hover {
-    color: #FAC949;
+    color: #F8CA46;
 }
 
 /* .subscribe .form-control {
@@ -407,31 +407,31 @@ ul.check-list li span {
 
 @media(min-width: 992px) {
     .menu ul li:hover a {
-        color: #FAC949;
+        color: #F8CA46;
     }
 
     .mega-menu:hover:before {
-        color: #FAC949;
+        color: #F8CA46;
     }
 
     .menu ul ul li a {
-        border-color: #FAC949 !important;
+        border-color: #F8CA46 !important;
         color: #fff !important;
     }
 
     .menu ul ul li.mega-menu:before {
-        color: #FAC949;
+        color: #F8CA46;
     }
 
     .menu ul ul li:hover>a {
-        color: #FAC949;
+        color: #F8CA46;
     }
 
     /* .menu ul ul {
         background: rgb(58, 7, 152, .95);
     } */
     .menu ul ul li a:before {
-        background: #FAC949;
+        background: #F8CA46;
     }
 }
 
