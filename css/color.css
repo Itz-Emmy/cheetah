@@ -36,8 +36,8 @@ a.active {
 }
 
 .btn:before {
-    background: -webkit-radial-gradient(center, ellipse, rgba(219, 53, 2, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
-    background: radial-gradient(ellipse at center, rgba(219, 53, 2, 0.5) 0%, rgba(0, 0, 0, 0) 80%);
+    background: -webkit-radial-gradient(center, ellipse, #EBBE44 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, #EBBE44 0%, rgba(0, 0, 0, 0) 80%);
 }
 
 .owl-dot {
@@ -45,7 +45,7 @@ a.active {
 }
 
 .owl-dot.active {
-    background: rgba(255, 0, 0, 0.226) !important;
+    background: #EBBE44 !important;
 }
 
 #preloader {
@@ -140,7 +140,7 @@ header.fixed .menu-toggle span:after {
 /*----- Home Banner -----*/
 
 .home-banner {
-    background-color: #0e0201;
+    background-color: #826523;
 }
 
 /*----- Work Section -----*/
@@ -333,7 +333,7 @@ ul.check-list li span {
 }
 
 .distribution-title {
-    color: rgb(182, 27, 27);
+    color: #EBBE44;
 }
 
 /*----- Contact Page -----*/
@@ -345,7 +345,7 @@ ul.check-list li span {
 /*----- Footer Section -----*/
 
 .footer-icon ul li a {
-    background: #aa5044;
+    background: #222;
 }
 
 .footer-icon ul li a:hover {

@@ -13,7 +13,7 @@
         max-width: 50px;
     }
 
-   
+
 
     .ptb-100 {
         padding-top: 80px;
@@ -306,8 +306,8 @@
     }
 
     header.fixed .menu {
-        top: 54px;
-        height: calc(100% - 54px);
+        top: 80px;
+        height: calc(100% - 80px);
     }
 
     .menu>ul {
@@ -319,7 +319,7 @@
     .menu ul li {
         display: block;
         padding: 0;
-        border-bottom: 1px solid #dd0000;
+        border-bottom: 1px solid #EBBE44;
     }
 
     .opener {
@@ -349,7 +349,7 @@
     .signin .btn {
         border: 0;
         padding: 8px 15px;
-        border-bottom: 1px solid #dd000d;
+        border-bottom: 1px solid #EBBE44;
         display: block;
         text-align: left;
         border-radius: 0;

@@ -850,6 +850,10 @@ ul.check-list li p {
     margin: 0 auto;
 }
 
+svg.listtopie-svg {
+    width: 370px !important;
+    height: 370px !important;
+}
 .token-graph-right {
     width: 400px;
     height: 400px;
@@ -857,10 +861,9 @@ ul.check-list li p {
 }
 
 .graph-logo img {
-
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 46%;
+    top: 51%;
     border-radius: 40%;
     max-width: 35%;
     transform: translate(-50%, -50%);
