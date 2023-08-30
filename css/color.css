@@ -305,7 +305,7 @@ ul.check-list li span {
 }
 
 .token-sale-counter {
-    background: #F8CA46;
+    background: #826523;
 }
 
 .token-sale-counter .coins-counter-loop li span {
@@ -317,15 +317,15 @@ ul.check-list li span {
 }
 
 .token-sale-counter .coins-progress span {
-    background: rgb(182, 27, 27);
-    background: -moz-linear-gradient(left, rgba(182, 27, 27, 1) 0%, rgba(253, 93, 0, 1) 100%);
-    background: -webkit-linear-gradient(left, rgba(182, 27, 27, 1) 0%, rgba(253, 93, 0, 1) 100%);
-    background: linear-gradient(to right, rgb(182, 27, 27) 0%, rgb(253, 93, 0) 100%);
+    background: #F8CA46;
+    background: -moz-linear-gradient(left, #333333 0%, rgba(253, 93, 0, 1) 100%);
+    background: -webkit-linear-gradient(left, #333333 0%, rgba(253, 93, 0, 1) 100%);
+    background: linear-gradient(to right, #333333 0%, rgb(253, 93, 0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F8CA46', endColorstr='#ddd000', GradientType=1);
 }
 
 .token-slide-info:before {
-    background: rgb(182, 27, 27);
+    background: #F8CA46;
 }
 
 .token-sale-counter .coins-progress {
@@ -345,7 +345,7 @@ ul.check-list li span {
 /*----- Footer Section -----*/
 
 .footer-icon ul li a {
-    background: #222;
+    background: #F8CA46;
 }
 
 .footer-icon ul li a:hover {
@@ -398,7 +398,7 @@ ul.check-list li span {
 }
 
 .copyright ul li:before {
-    background: #222222;
+    background: #F8CA46;
 }
 
 .footer {

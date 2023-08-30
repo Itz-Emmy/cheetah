@@ -201,15 +201,15 @@ $(function () {
       ) {
         $(".donut").listtopie({
           startAngle: 270,
-          strokeWidth: 5,
+          strokeWidth: 3,
           hoverEvent: true,
-          hoverBorderColor: "#DC143C",
+          hoverBorderColor: "#FFFFFF",
           hoverAnimate: false,
           drawType: "round",
           speedDraw: 150,
           hoverColor: "#ffffff",
-          textColor: "#2F4F4F",
-          strokeColor: "#990000",
+          textColor: "#ffffff",
+          strokeColor: "#333333",
           textSize: "18",
           hoverAnimate: true,
           marginCenter: 85,
@@ -254,8 +254,10 @@ $(function () {
       }
     });
     $(".menu ul li a").on("click", function () {
-      $(".menu-toggle").toggleClass("active");
-      $(".menu").slideToggle("slow");
+      if ($(".menu-toggle").hasClass("active")) {
+        $(".menu-toggle").toggleClass("active");
+        $(".menu").slideToggle("slow");
+      }
     });
     $(".signin a").on("click", function () {
       $(".menu-toggle").toggleClass("active");
