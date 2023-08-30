@@ -301,13 +301,13 @@
         left: 0;
         width: 100%;
         height: calc(100% - 65px);
-        box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 30%);
+        box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 10%);
         overflow-y: auto;
     }
 
     header.fixed .menu {
-        top: 80px;
-        height: calc(100% - 80px);
+        top: 55px;
+        height: calc(100% - 55px);
     }
 
     .menu>ul {

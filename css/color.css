@@ -41,7 +41,7 @@ a.active {
 }
 
 .owl-dot {
-    background: #fff !important;
+    background: #333 !important;
 }
 
 .owl-dot.active {
@@ -86,7 +86,7 @@ a.active {
 
 .skyblue {
 
-    background-color: #222222;
+    background-color: #333333;
 }
 
 .darkblue {
@@ -179,23 +179,23 @@ ul.check-list li span {
 /*----- Token Sale Section -----*/
 
 .token-graphic-detail ul li:before {
-    background: #222;
+    background: #fff;
 }
 
 .token-graphic-detail ul li.color-code-2:before {
-    background: #222;
+    background: #fff;
 }
 
 .token-graphic-detail ul li.color-code-3:before {
-    background: #222;
+    background: #fff;
 }
 
 .token-graphic-detail ul li.color-code-4:before {
-    background: #222;
+    background: #fff;
 }
 
 .token-graphic-detail ul li.color-code-5:before {
-    background: #222;
+    background: #fff;
 }
 
 .donut {
@@ -437,7 +437,7 @@ ul.check-list li span {
 
 @media(max-width: 991px) {
     .menu {
-        background: black;
+        background: #222;
     }
 
     .signin .btn {

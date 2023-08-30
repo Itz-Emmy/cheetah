@@ -253,6 +253,14 @@ $(function () {
         $(this).siblings(".menu ul ul").slideDown(200);
       }
     });
+    $(".menu ul li a").on("click", function () {
+      $(".menu-toggle").toggleClass("active");
+      $(".menu").slideToggle("slow");
+    });
+    $(".signin a").on("click", function () {
+      $(".menu-toggle").toggleClass("active");
+      $(".menu").slideToggle("slow");
+    });
     /* Responsive Menu End */
   }
   $(document).ready(function () {

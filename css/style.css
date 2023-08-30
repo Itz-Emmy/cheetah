@@ -146,6 +146,7 @@ button {
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     padding-bottom: 3px;
+    margin-top: 25px;
 }
 
 .heading-title {
@@ -538,7 +539,8 @@ header .container {
 /*----- Sticky Header -----*/
 
 header.fixed {
-    padding: 15px 0px;
+    z-index: 99999;
+    padding: 5px 0px;
 }
 
 /*----- Sticky Header End -----*/
@@ -623,6 +625,7 @@ img.hero-image {
 
 ul.check-list {
     max-width: 500px;
+    color: #222222;
 }
 
 ul.check-list li {
