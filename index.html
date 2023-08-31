@@ -34,7 +34,7 @@
 
     <!-- Start preloader -->
     <div id="preloader">
-        
+
     </div>
     <!-- End preloader -->
 
@@ -118,7 +118,11 @@
                 <div class="col-md-6 text-center flex-align justify-center wow fadeInLeft">
                     <div class="work-box">
                         <div class="work-box-bg"></div>
-                        <video src="images/cheetah.webm" alt="Running Cheetah" autoplay loop></video>
+                        <video autoplay loop>
+                            <source src="images/cheetah.mp4" type="video/mp4">
+                            <source src="images/cheetah.webm" type="video/webm">
+                            Your browser does not support the video tag.
+                        </video>
                         <!-- <img src="" class="" > -->
                     </div>
                 </div>
@@ -241,7 +245,8 @@
                                 network. Ensure the ETH is sent on the ethereum network, else you won't be able to swap
                                 it for <strong>$Chita</strong>
                             </p>
-                            <a href="https://www.binance.com/en/how-to-buy/ethereum" target="_blank" class="card__cta cta">Buy $ETH</a>
+                            <a href="https://www.binance.com/en/how-to-buy/ethereum" target="_blank"
+                                class="card__cta cta">Buy $ETH</a>
                         </div>
 
                         <div class="cards__card card">
@@ -496,13 +501,14 @@
             </div>
         </div>
     </footer>
-
+    <!-- Lazyloading JS -->
+    <script src="https://cdn.jsdelivr.net/npm/lazyload/lazyload.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/snap.svg-min.js"></script>
-    <script src="js/jquery.listtopie.min.js"></script>
-    <script src="js/animation.js"></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/owl.carousel.min.js" defer></script>
+    <script src="js/snap.svg-min.js" defer></script>
+    <script src="js/jquery.listtopie.min.js" defer></script>
+    <script src="js/animation.js" defer></script>
     <script src="js/custom.js"></script>
 
 </body>
