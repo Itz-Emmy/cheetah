@@ -544,6 +544,11 @@ header.fixed {
     padding: 5px 0px;
 }
 
+.menu a.btn,
+.banner-contain a {
+    color: #333333;
+}
+
 /*----- Sticky Header End -----*/
 
 /*----- Header End -----*/
@@ -614,6 +619,11 @@ img.hero-image {
     font-size: 30px;
     max-width: 500px;
     font-weight: 600;
+    color: #222222;
+}
+
+.work-part .heading-des {
+    color: #333333;
 }
 
 .work-des {
@@ -658,7 +668,7 @@ ul.check-list li p {
 }
 
 .work-box-bg {
-    background: url(../images/circle.png);
+    background: url(../images/circle.svg);
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
@@ -670,7 +680,7 @@ ul.check-list li p {
     transition: all 400ms ease;
 }
 
-.work-box img {
+.work-box video {
     position: relative;
     border-radius: 15px;
     /* width: 400px; */
@@ -745,8 +755,9 @@ ul.check-list li p {
     width: 40%;
 }
 
-.feature-box:hover .feature-icon img {
+.feature-box:hover .feature-icon img:hover {
     opacity: 0.5;
+    transform: scale(1.2);
 }
 
 .feature-title {
@@ -860,6 +871,11 @@ ul.check-list li p {
 .token-sale {
     background: url(../images/tokensale.svg) no-repeat;
     background-attachment: fixed;
+}
+
+#tokensale-part .heading-des,
+#tokensale-part li {
+    font-size: 1.25rem;
 }
 
 .token-graphic-detail ul li {
@@ -1202,6 +1218,11 @@ _______________________________________________________*/
     gap: 2.5em;
 }
 
+i.fa.fa-twitter,
+i.fa.fa-telegram {
+    color: #333;
+}
+
 .card {
     --flow-space: 0.5em;
     --hsl: var(--hue), var(--saturation), var(--lightness);
@@ -1221,6 +1242,10 @@ _______________________________________________________*/
     box-shadow: 0 0px 13px 0 #F8CA46;
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
+}
+
+.cards__card.card:hover {
+    transform: scale(1.1);
 }
 
 /* {
@@ -1247,6 +1272,9 @@ _______________________________________________________*/
     line-height: 1.4;
 }
 
+p.card__bullets.flow {
+    text-align: center;
+}
 
 
 .card__heading {

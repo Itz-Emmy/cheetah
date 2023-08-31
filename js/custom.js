@@ -241,6 +241,7 @@ $(function () {
     $(".menu-toggle").on("click", function () {
       $(".menu-toggle").toggleClass("active");
       $(".menu").slideToggle("slow");
+      $(".signin a").css("color", "#FFFFFF");
     });
     $(".mega-menu > .opener").on("click", function () {
       if ($(this).hasClass("active")) {
