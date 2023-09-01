@@ -380,6 +380,10 @@
         font-size: 35px;
     }
 
+    .work-box video {
+        width: 350px;
+    }
+
     .work-process-title {
         font-size: 25px;
     }
