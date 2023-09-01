@@ -74,7 +74,8 @@ a.active {
     color: #868686;
 }
 
-.heading-title-2 span, .sub-heading {
+.heading-title-2 span,
+.sub-heading {
     color: #222222;
     font-size: 2rem;
     font-weight: bold;
@@ -177,6 +178,9 @@ ul.check-list li span {
 }
 
 /*----- Token Sale Section -----*/
+#tokensale-part .heading-title {
+    color: #333333;
+}
 
 .token-graphic-detail ul li:before {
     background: #fff;
