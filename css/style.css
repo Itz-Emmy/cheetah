@@ -1,8 +1,9 @@
-@import url('../css/font-awesome.min.css');
+/* @import url('../css/font-awesome.min.css'); */
 @import url('../css/bootstrap.min.css');
 @import url('../css/owl.carousel.css');
 @import url('../css/jquery.listtopie.css');
 @import url('../css/animations.css');
+
 /* 
 * Google Fonts
 
@@ -578,7 +579,7 @@ _______________________________________________________*/
 }
 
 .banner-img {
-    animation: MoveUpDown 2s linear infinite;
+    /* animation: MoveUpDown 2s linear infinite; */
     text-align: center;
     height: 430px;
     width: 850px;
@@ -788,7 +789,7 @@ ul.check-list li p {
 }
 
 .date-title {
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
     position: absolute;
     top: -60px;
@@ -842,6 +843,12 @@ ul.check-list li p {
     margin: 0 auto;
     padding-top: 25px;
     width: 100%;
+    font-size: 1.1rem;
+    /* color: #333333; */
+}
+
+.roadmap-detail-box p {
+    color: #333333;
 }
 
 .roadmap-slider .owl-item:nth-child(2n+0) .date-title {
@@ -876,6 +883,7 @@ ul.check-list li p {
 
 #tokensale-part .heading-des,
 #tokensale-part li {
+    color: #333333;
     font-size: 1.25rem;
 }
 
@@ -1219,9 +1227,14 @@ _______________________________________________________*/
     gap: 2.5em;
 }
 
-i.fa.fa-twitter,
-i.fa.fa-telegram {
-    color: #333;
+.fab .fa-twitter,
+.fab .fa-telegram {
+    color: #333333 !important;
+}
+
+.main.flow .main__heading.heading-title {
+    box-shadow: 0 0px 13px 0 #F8CA46;
+
 }
 
 .card {
@@ -1900,7 +1913,7 @@ footer.bg-pattern {
     background-position: center 125px;
     /* padding-bottom: 50px; */
     background: #333333;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .footer-logo img {
@@ -1911,8 +1924,87 @@ footer.bg-pattern {
     border-radius: 40%;
 }
 
+#faq .heading-title {
+    margin: auto;
+}
+
 .footer-logo img:hover {
     opacity: 0.5;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* margin-top: 12em; */
+}
+
+details {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    width: 100%;
+    background: #F8CA46;
+    border-radius: 8px;
+    position: relative;
+    max-width: 600px;
+    border: 1px solid #C3DEFF;
+    transition: all 0.3s ease-in-out;
+}
+
+details:hover {
+    border: 1px solid #A4A1FF;
+}
+
+
+summary {
+    user-select: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    list-style: none;
+    padding: 1em;
+    align-items: center;
+}
+
+summary:hover .faq-title {
+    opacity: 1;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:focus {
+    outline: none;
+}
+
+summary:hover .expand-icon {
+    opacity: 1;
+}
+
+.faq-title {
+    color: #1C2035;
+    width: 90%;
+    opacity: 0.65;
+    transition: all 250ms ease-in-out;
+}
+
+.faq-content {
+    color: #303651;
+    padding: 0.2em 1em 1em 1em;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.expand-icon {
+    opacity: 0.65;
+}
+
+.expand-icon {
+    pointer-events: none;
+    position: absolute;
+    right: 1em;
+    transition: all 150ms ease-out;
 }
 
 .footer {
@@ -1938,6 +2030,18 @@ footer.bg-pattern {
     text-align: center;
     border-radius: 100%;
     font-size: 25px;
+}
+.footer-link {
+    margin-top: 20px;
+    line-height: 35px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #EBBE44;
 }
 
 .footer-link ul {
